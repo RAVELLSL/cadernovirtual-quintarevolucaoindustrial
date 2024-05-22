@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -5,76 +6,76 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Caderno de Anotações</title>
     <style>
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: 'Courier New', Courier, monospace;
-            background: #f4f4f4;
-        }
-        .notebook {
-            width: 90%;
-            max-width: 800px;
-            margin: 20px auto;
-            background: white;
-            padding: 20px 20px 20px 70px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            position: relative;
-            overflow: hidden;
-        }
-        .red-line {
-            position: absolute;
-            width: 2px;
-            height: 100%;
-            background: #ff0000;
-            left: 50px;
-            top: 0;
-            z-index: 2;
-        }
-        .hole {
-            position: absolute;
-            width: 12px;
-            height: 12px;
-            background: #000;
-            border-radius: 50%;
-            left: 20px;
-            z-index: 2;
-        }
-        .hole.top {
-            top: 20px;
-        }
-        .hole.middle {
-            top: calc(50% - 6px); /* Centraliza o furo no meio */
-        }
-        .hole.bottom {
-            top: calc(100% - 40px);
-        }
-        .content {
-            position: relative;
-            z-index: 3;
-            text-align: justify; /* Justificar o texto */
-        }
-        h1, h2, h3, p {
-            margin: 0;
-            padding: 0;
-            line-height: 30px; /* Ajuste da altura da linha */
-            position: relative;
-            z-index: 3;
-        }
-        h1 {
-            margin-bottom: 30px; /* Espaço adicional para o título */
-            text-align: center; /* Centralizar o título */
-        }
-        h2, h3 {
-            margin-top: 30px; /* Espaço adicional para a seção */
-        }
-        p, ul {
-            margin-top: 0;
-            margin-bottom: 30px;
-        }
-        ul {
-            padding-left: 20px;
-        }
-
+     body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background: #f4f4f4;
+    font-size: 18px; /* Aumentar o tamanho das letras na página inteira */
+}
+.notebook {
+    width: 900%;
+    max-width: 900px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px 20px 20px 70px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
+}
+.red-line {
+    position: absolute;
+    width: 2px;
+    height: 100%;
+    background: #ff0000;
+    left: 50px;
+    top: 0;
+    z-index: 2;
+}
+.hole {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: #000;
+    border-radius: 50%;
+    left: 20px;
+    z-index: 2;
+}
+.hole.top {
+    top: 200px;
+}
+.hole.middle {
+    top: calc(50% - 6px); /* Centraliza o furo no meio */
+}
+.hole.bottom {
+    top: calc(100% - 200px);
+}
+.content {
+    position: relative;
+    z-index: 3;
+    text-align: justify; /* Justificar o texto */
+}
+h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+    line-height: 40px; /* Ajuste da altura da linha */
+    position: relative;
+    z-index: 3;
+}
+h1 {
+    margin-bottom: 30px; /* Espaço adicional para o título */
+    text-align: center; /* Centralizar o título */
+}
+h2, h3 {
+    margin-top: 30px; /* Espaço adicional para a seção */
+}
+p, ul {
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+ul {
+    padding-left: 20px;
+}
         /* Ajustes para telas menores */
 @media screen and (max-width: 600px) {
     .notebook {
@@ -88,7 +89,7 @@
     }
     .content {
         text-align: left; /* Alinhar o texto à esquerda */
-        font-size: 18px; /* Aumentar o tamanho das letras do texto */
+        font-size: 18.5px; /* Aumentar o tamanho das letras do texto */
     }
     h1, h2, h3, p, ul {
         font-size: 18px; /* Aumentar o tamanho das letras dos títulos e parágrafos */
