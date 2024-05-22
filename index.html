@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -77,20 +76,25 @@
         }
 
         /* Ajustes para telas menores */
-        @media screen and (max-width: 600px) {
-            .notebook {
-                padding: 20px 20px 20px 20px;
-            }
-            .red-line {
-                display: none;
-            }
-            .hole {
-                display: none;
-            }
-            .content {
-                text-align: left; /* Alinhar o texto à esquerda */
-            }
-        }
+@media screen and (max-width: 600px) {
+    .notebook {
+        padding: 20px 20px 20px 20px;
+    }
+    .red-line {
+        display: none;
+    }
+    .hole {
+        display: none;
+    }
+    .content {
+        text-align: left; /* Alinhar o texto à esquerda */
+        font-size: 18px; /* Aumentar o tamanho das letras do texto */
+    }
+    h1, h2, h3, p, ul {
+        font-size: 18px; /* Aumentar o tamanho das letras dos títulos e parágrafos */
+    }
+}
+
     </style>
 </head>
 <body>
