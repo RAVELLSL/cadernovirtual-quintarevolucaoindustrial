@@ -75,11 +75,12 @@ p, ul {
 ul {
     padding-left: 20px;
 }
-        /* Ajustes para telas menores */
-/* Ajustes para telas menores */
+     /* Ajustes para telas menores */
 @media screen and (max-width: 600px) {
     .notebook {
+        width: 100%; /* Ajustar a largura para 100% da tela */
         padding: 20px 20px 20px 20px;
+        box-sizing: border-box; /* Incluir padding na largura total */
     }
     .red-line {
         display: none;
@@ -91,13 +92,12 @@ ul {
         text-align: left; /* Alinhar o texto à esquerda */
     }
     h1, h2, h3, p, ul {
-        font-size: 20px; /* Aumentar o tamanho das letras dos títulos e parágrafos */
+        font-size: 16px; /* Ajustar o tamanho das letras para caber na tela */
     }
     h1, h2, h3 {
         text-align: center; /* Centralizar todos os títulos e subtítulos */
     }
 }
-
 
 
     </style>
